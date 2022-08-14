@@ -1,0 +1,14 @@
+
+
+.itemContainer {
+    height: 20px;
+}
+
+.item {
+    height: inherit;
+    border-style: solid;
+    border-color: white;
+    display: inline-block;
+    background-color: blue;
+    color: white;
+}
