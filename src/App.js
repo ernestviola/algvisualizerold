@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 import Home from './routes/Home';
 import Search from './routes/Search';
@@ -9,6 +9,10 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+        <div>
+          <Link to={'/'} >Home</Link>
+          <Link to={'/search'} >Search</Link>
+        </div>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/search' element={<Search />} />
