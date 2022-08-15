@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 import '../css/Search.css'
 
-const Search = () => {
+const ArraySearch = () => {
     const [size, setSize] = useState(0)
     const [listItems, setListItems] = useState([])
 
@@ -39,4 +39,4 @@ const Search = () => {
     )
 }
 
-export default Search
+export default ArraySearch
